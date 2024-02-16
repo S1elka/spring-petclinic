@@ -23,7 +23,6 @@ You can then access petclinic at http://localhost:8080/
 Or you can run it from Maven directly using the Spring Boot Maven plugin. If you do this, it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
 
 ```
-./mvnw spring-boot:run
 ```
 
 > NOTE: If you prefer to use Gradle, you can build the app using `./gradlew build` and look for the jar file in `build/libs`.
